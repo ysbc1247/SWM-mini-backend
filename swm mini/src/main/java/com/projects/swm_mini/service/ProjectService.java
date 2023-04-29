@@ -2,8 +2,6 @@ package com.projects.swm_mini.service;
 import com.projects.swm_mini.dto.ProjectDTO;
 import com.projects.swm_mini.entity.Project;
 import com.projects.swm_mini.repository.ProjectRepository;
-import jakarta.persistence.EntityNotFoundException;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
@@ -11,6 +9,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
 @Slf4j
